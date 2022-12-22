@@ -1,0 +1,117 @@
+* { 
+    margin: 0%;
+    padding:0%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+   
+     }
+     body{  
+       background-image: url("../img/pexels-pixabay-87452.png");
+       background-repeat: none;
+       background-size:cover;
+       height: 100%;
+       width: 100%;
+       }
+       .container-fluid{ 
+         background-color: rgb(255, 242, 0);
+    } 
+       h1{ 
+        background-color:rgba(146, 242, 50, 0.6);
+        border-style: solid;
+        font-family:'Langosta', cursiva; color:rgb(11, 21, 1);
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        font-size: 70px;
+            
+    }
+    h2{ 
+        background-color:    rgba(43, 31, 18, 0.6);
+        font-family:'Langosta', cursiva; color:chartreuse ;
+        color:chartreuse;
+        text-align: center;
+        font-size: 40px;
+        height: 100%;
+        width: 100%;   
+    }
+    h3{ 
+        background-color:    rgba(43, 31, 18, 0.6);
+        font-family:'Langosta', cursiva; color:chartreuse ;
+        color:chartreuse;
+        text-align: center;
+        font-size: 40px;
+        height: 100%;
+        width: 100%;    
+    }
+   h4 { 
+    background-color:    rgba(43, 31, 18, 0.6);
+        font-family:'Langosta', cursiva; color:chartreuse ;
+        color:chartreuse;
+        text-align: center;
+        font-size: 40px;
+        height: 100%;
+        width: 100%;   
+    }
+    H5{ 
+        background-color:    rgba(43, 31, 18, 0.6);
+        font-family:'Langosta', cursiva; color:chartreuse ;
+        color:chartreuse;
+        text-align: center;
+        font-size: 80px;
+        height: 100%;
+        width: 100%;    
+    }
+    hr{  
+
+       }
+    p{ 
+        height: 100%;
+        width: 100%;
+        background-color:rgba(146, 242, 50, 0.4);
+        font-family:'Langosta', cursiva; color:black; 
+        text-align: center;
+        font-size: 40px;
+        font-weight: 10px;    
+     }
+    .contenedor{  
+
+        margin-left: 95px;
+        margin-right: 10px;
+            margin-top: 70px;
+            display:flex;
+             grid-template-columns: 500px 500px  500px 500px;
+            grid-template-rows:  550px ;
+            column-gap: 20px;
+          
+            row-gap:20px;
+            justify-items:center;
+            align-items:center;
+            justify-content:center;
+            align-content: center;
+       }
+       .contenedor div{  
+        
+        border-radius: 30%;
+          }
+          .fotos{  
+            border-radius: 30%;
+            }
+            .fotos:hover{  
+                transform: scale( 1.5 )
+                
+                }
+
+                footer{
+                   
+                    rgb(255, 242, 0);
+                    margin-bottom: 0PX;
+                    margin-top: 120px;
+                    width: 100%;
+                    height: 80px;
+         background-color: rgb(255, 242, 0);
+         
+                  } 
+                  .footer {   
+                    font-size: 25px;
+                      }  
